@@ -1,0 +1,38 @@
+- GUIDE: HOW TO USE -
+One of your trillion questions would be, "how do you use that thing?", well it's actually very simple.
+What to know:
+1. When the program starts for the first time, it will automatically save all your minecraft settings, that
+   means you dont have use the command "save".
+2. Optifine and Shaders settings will also be saved as long they were found on your minecraft directory.
+3. When it detects that some files were missing on your minecraft directory but found on your
+   recent backup, it will automatically restore the files, else it will do nothing about it.
+4. When you save a new recent or profile backup and the options already exist in the backup, it will rename
+   all the old backuped settings "old", example: options.old.txt
+5. You cannot load a backup if minecraft is running.
+6. You cannot make a profile that has special characters, but it allows dot(.), underscore(_) and dash(-).
+7. You can also use the quick-commands, read more at the menu of the program.
+8. When it asks you to type something, you can go back with the commands "back|leave|menu|quit" or just
+   press enter when typed nothing in the box.
+9. There are no premade profiles.
+
+LESSON #1: HOW TO USE QUICK REVENT SAVES
+1. When you start the program for the first time it will save all your available options (settings), but if you want
+   to save a new recent backup just type "save".
+2. When you want to load a recent backup, type "load". But keep in mind that this is not possible if minecraft
+   is running. (Note that any java application that is running can cause it to not allow you to load backups)
+
+LESSON #2: HOW TO USE PROFILES
+- What are profiles?: Profiles, in short, are multiple backups.
+1. When you start the program for the first time, you won't find any profiles. To create one, type "create profile"
+   or for quicker, type "create profile [profile name]". Your minecraft settings will be automatically backuped on
+   that profile.
+2. When you want to save your minecraft settings in a profile, type "save in" or for quicker "save in [profile]
+3. When you want to load a profile type "load profile" or "load profile [profile]"
+4. To list all your profiles, type "plist".
+5. To delete a profile, type "delete profile" or "delete profile [profile]"
+6. To delete all your profiles, type "delete all profiles".
+
+LESSON #3: HOW TO SAVE YOUR MOD CONFIGS
+- What are mod configs?: Settings that were saved while using Forge mods or Fabric mods.
+1. Configs are not saved when you start the program for the first time. To save your configs, type "save configs".
+2. To load your configs, type "load configs".
